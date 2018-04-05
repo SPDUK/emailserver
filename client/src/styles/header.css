@@ -1,0 +1,7 @@
+.creditsbtn {
+  color: black;
+}
+
+.creditsbtn:hover {
+  color: red;
+}
