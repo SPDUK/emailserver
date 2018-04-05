@@ -5,3 +5,7 @@
 .creditsbtn:hover {
   color: red;
 }
+
+.nav-credits {
+  margin: 0px 10px;
+}
