@@ -26,6 +26,16 @@ require('./routes/billingRoutes')(app);
 
 const PORT = process.env.PORT || 5000;
 
+if (process.env.NODE_ENV === 'production') {
+  // make express serve up react build assets
+  app.use(express.static('client/build'));
+  // make express serve index html if it doesn't know the route
+  const path = require('path');
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+}
+
 app.listen(PORT, function() {
   console.log('Server starting..');
 });
