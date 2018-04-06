@@ -17,7 +17,9 @@ module.exports = app => {
       _user: req.user.id,
       dateSent: Date.now()
     });
-    // Great place to send an email!!!!
+
+    // send the email
     const mailer = new Mailer(survey, surveyTemplate(survey));
+    mailer.send();
   });
 };
