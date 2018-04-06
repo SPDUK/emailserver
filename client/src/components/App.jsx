@@ -5,6 +5,7 @@ import * as actions from '../actions';
 
 import Header from './Header';
 import Landing from './Landing';
+
 const DashBoard = () => <h2>dashboard</h2>;
 const SurveyNew = () => <h2>Survey</h2>;
 
