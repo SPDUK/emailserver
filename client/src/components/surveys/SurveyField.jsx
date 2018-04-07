@@ -2,12 +2,11 @@
 
 import React from 'react';
 
-const SurveyField = () => {
+export default ({ input, label }) => {
   return (
     <div>
-      <input />
+      <label>{label}</label>
+      <input {...input} />
     </div>
   );
 };
-
-export default SurveyField;
