@@ -12,3 +12,9 @@ Expiry Date: Any date in the future
 CVC: Any 3 digit number
 
 Step 3: Your credits have now been added to the account, the number in the navbar will add 5 to your account linked to Google
+
+step 4: Click the + button and enter info into the form, emails must be real emails and click next
+
+step5: Review the inputs, make sure everything is OK, then click send survey
+
+step 6: the email has been sent! (might go to spam folder, if you want to check)
