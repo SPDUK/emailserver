@@ -17,4 +17,4 @@ step 4: Click the + button and enter info into the form, emails must be real ema
 
 step5: Review the inputs, make sure everything is OK, then click send survey
 
-step 6: the email has been sent! (might go to spam folder, if you want to check)
+step 6: the email has been sent! (might go to spam folder, takes about 30sec-1min sometimes, if you want to check without giving your email use 10minutemail)
