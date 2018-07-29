@@ -20,7 +20,7 @@ CVC: 123                             (Any 3 digit number)
 
 3. Your credits have been added, you can now click the + button in the bottom right to send an email
 
-4. Add a title, subject ad email body.
+4. Add a title, subject and email body.
 
 5. Add the list of recipients for the email, separated by commas, then click next
 
