@@ -1,6 +1,7 @@
 # EmailServer
 
 #### https://obscure-inlet-21235.herokuapp.com/
+Might take a short while to load because it is hosted on heroku for free.
 
 
 How to send an email:
