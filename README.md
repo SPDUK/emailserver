@@ -1,22 +1,36 @@
-https://obscure-inlet-21235.herokuapp.com/
+# EmailServer
 
-Step 1:
-Sign in with Google Oath.
-You can then click "Add Credits" button and an option to pay with stripe will open.
-Enter any fake credit card information // It's the test mode of stripe
+#### https://obscure-inlet-21235.herokuapp.com/
 
-Step 2:
-Email : a@b.com // or any other valid email
-Card number: MUST BE EXACTLY THIS: 4242 4242 4242 4242
-Expiry Date: Any date in the future
-CVC: Any 3 digit number
 
-Step 3: Your credits have now been added to the account, the number in the navbar will add 5 to your account linked to Google
+How to send an email:
+1. Sign in with Google Oath. You can then click "Add Credits" button and an option to pay with stripe will open. Enter any fake credit card information, this is a test version of stripe so no real info is needed.
 
-step 4: Click the + button and enter info into the form, emails must be real emails and click next
+2. Add Credits to your account.
 
-step5: Review the inputs, make sure everything is OK, then click send survey
+```
+Example info:
 
-step 6: the email has been sent! (might go to spam folder, takes about 30sec-1min sometimes, if you want to check that it works without giving your email use 10minutemail)
+Email: a@b.com                       (Can be any email)
+Card Number: 4242 4242 4242 4242     (Must be exactly this)
+MM/YY: 01/25                         (Any date in the future)
+CVC: 123                             (Any 3 digit number)
 
-// not finished but it works
+```
+
+3. Your credits have been added, you can now click the + button in the bottom right to send an email
+
+4. Add a title, subject ad email body.
+
+5. Add the list of recipients for the email, separated by commas, then click next
+
+6. Confirm the entries, make sure everything looks okay, then send survey.
+
+7.  Emails might be send to the spam folder, so if you don't see it check there. 
+
+
+
+
+
+
+
